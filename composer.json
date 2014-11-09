@@ -1,0 +1,14 @@
+{
+	"require": {
+		"codingbean/macaw": "dev-master",
+		"illuminate/database": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"p.ffser.com/controller",
+			"ffser/model",
+			"ffser/library",
+			"ffser/config"
+		]
+	}
+}

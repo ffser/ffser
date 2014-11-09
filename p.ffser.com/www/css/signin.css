@@ -1,0 +1,92 @@
+body {
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.ffser-nav {
+    background-color: #FFFFFF;
+    border-bottom: 0 none;
+    margin-bottom: 0;
+}
+.bs-home-nav .bs-nav-b {
+    display: none;
+}
+.ffser-nav .navbar-brand, .ffser-nav .navbar-nav > li > a {
+    color: #563D7C;
+    font-weight: 500;
+}
+.ffser-nav .navbar-nav > li > a:hover, .ffser-nav .navbar-nav > .active > a, .ffser-nav .navbar-nav > .active > a:hover {
+    background-color: #F9F9F9;
+    color: #463265;
+}
+.ffser-nav .navbar-toggle .icon-bar {
+    background-color: #563D7C;
+}
+.ffser-nav .navbar-header .navbar-toggle {
+    border-color: #FFFFFF;
+}
+.ffser-nav .navbar-header .navbar-toggle:hover, .ffser-nav .navbar-header .navbar-toggle:focus {
+    background-color: #F9F9F9;
+    border-color: #F9F9F9;
+}
+
+
+.ffser-content {
+    background-color: #6F5499;
+    background-image: linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);
+    background-repeat: repeat-x;
+    color: #CDBFE3;
+}
+.ffser-footer {
+    border-top: 1px solid #E5E5E5;
+    color: #777777;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+.bs-docs-footer-links {
+    color: #999999;
+    margin-top: 20px;
+    padding-left: 0;
+}
+.bs-docs-footer-links li {
+    display: inline;
+    padding: 0 2px;
+}
+.bs-docs-footer-links li:first-child {
+    padding-left: 0;
+}
